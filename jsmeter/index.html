@@ -1,0 +1,17 @@
+<script>
+    var start = new Date().getTime()
+for(var i=0; i<10000; i++){
+    var m = Math.random();
+	console.log(m)
+}
+var end= new Date().getTime() - start;
+
+var start1 = new Date().getTime()
+for(var i=0; i<100000; i++){
+    var m = Math.random();
+	console.log(m)
+}
+var end1= new Date().getTime() - start1;
+console.log(start + "--------"+end)
+console.log(start1 + "--------"+end1)
+ </script>

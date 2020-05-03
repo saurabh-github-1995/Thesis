@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Benchmark</title>
+</head>
+<body>
+ <button onclick="exec()">CLICK</button>
+ <script src="lodash.js"></script>
+ <script src="platform.js"></script>
+ <script src="bench.js"></script>
+ <script>
+     function exec(){
+       /* console.time("for loop");
+        let arr = [];
+        for(let i = 0 ; i < 1000 ; i++){
+            arr.push(i);
+        }
+        console.timeEnd("for loop");*/
+    
+        var startTime = new Date().getTime();
+        var arr1 = [];
+        for(let i = 0 ; i < 100000000 ; i++){
+            arr1.push(i);
+        }
+        var endTime = new Date().getTime();
+        var runTime = endTime - startTime;
+        console.log(startTime +"------>"+endTime+"-------->"+runTime);
+     }
+    
+    /*var suite = new Benchmark.Suite;
+    
+    suite.add(function() {
+      
+        !!'Hello World!'.match(/o/);
+    });
+    suite.on('start', function() { 
+  
+        console.log('bench started');
+      });
+
+      
+    suite.on('complete', function() { 
+  
+        console.log('bench started...........');
+      });*/
+      //suite.run();
+ </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+FORMS management framework using angular and java
+
+PERFORMANCE OF JAVASCRIPT FRAMEWORKS ON WEB SINGLE PAGE APPLICATIONS (SPA)
+
+
+Angular,
+Backbone,
+Ember,
+Marionette
+React.
+
+
+Angular
+React
+VUE
+Backbone
+Ember
+Meteor
+AngularJS
+
+PLAIN JAVASCRIPT
