@@ -14,8 +14,27 @@ Angular
 React
 VUE
 Backbone
-Ember
-Meteor
+Ember - last
 AngularJS
 
 PLAIN JAVASCRIPT
+
+
+
+FOR THESIS REPORT
+WRITE COMPARIOSN OF LIBRARY AND FRAMEWROK
+
+JSF
+JS
+IE
+CRUD
+MVP - MODEL VIEW PRESENTR
+
+Lines of Code, Cyclomatic Complexity, Halstead Complexity, Maintainability Index, Database metrics, Page-load/render-time, Speed index, Render and frame measurements
+
+A. Osmani and S. Sorhus
+HANS FINDEL DAVILA
+
+
+SEARCH from list
+cart
